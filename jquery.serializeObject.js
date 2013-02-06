@@ -9,7 +9,7 @@
  * Modified by Daniel Carbone (daniel.p.carbone@vanderbilt.edu)
  *
  * Updated because IE (as of v 9) and WebKit (as of safari 5 and older versions of chrome)
- * are not able to serialize the value of a fieldset in a field.  if $(fieldset).serializeArray() is called,
+ * are not able to serialize the value of a fieldset in a form.  if $(fieldset).serializeArray() is called,
  * it will serialize and return the value of the parent form or return undefined.
  *
  * This is obviously evil, and I have modified the below code to enable compabitility
