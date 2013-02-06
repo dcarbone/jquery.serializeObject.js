@@ -3,7 +3,7 @@ jquery.serializeObject.js
 
 Serialize Object jQuery Extension with support for &lt;FIELDSET /> elements
 
-**Use**
+**Usage**
 
 var obj = $("#formId").serializeObject();
 
